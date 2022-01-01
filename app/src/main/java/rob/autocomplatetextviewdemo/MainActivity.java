@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         multiAutoCompleteTextView.setAdapter(adapter);
         multiAutoCompleteTextView.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
+        multiAutoCompleteTextView.setThreshold(1);
 
     }
     private static  final String[] COUNTRIES = new String[]{
